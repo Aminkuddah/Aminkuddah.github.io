@@ -1,0 +1,241 @@
+html, body{
+    font-family: helvetica;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+#header{
+    /*header*/
+    background-image:url(../logo/slider-backgrounda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height : 100vh; 
+    font-family: helvetica;
+}
+.profil h1{
+    font-size: 40px;
+    color: LightSteelBlue;
+    font-family: Stencil Std;
+}
+.gambar{ 
+    margin-top: 100px;
+    border: 10px solid wheat;
+} 
+
+#about{
+    /*background-color: lightgrey;*/
+    background-image: url(../logo/pantai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 100vh;
+}
+
+.banner-text{
+    color: black;
+    margin-left: 20px;
+}
+.garis{
+    margin-top: 12px;/*
+    border-left: 10px solid #993d0e;
+    border-right: 10px solid #993d0e;*/
+}
+.teks{
+    color: blue;   
+}
+.banner-text h2{
+    border-height: 100vh;
+    font-family: Franklin Gothic Heavy; 
+    font-size: 80px;
+    padding-right: 20px;
+}
+.nama .aboutt{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.decorate{
+    font-family: Franklin Gothic Heavy; 
+    font-size: 80px;
+    color: maroon;
+    padding-left: 400px;
+}
+
+ .sosmed {
+   position: absolute;
+   opacity: 0;
+
+ }
+ 
+.kel-sosmed:hover .sosmed {
+   opacity: 1;
+ }
+ .fab{
+   padding: 20px;
+   font-size: 50px;
+   width: 60px;
+   text-align: center;
+   text-decoration: none;
+   
+}
+
+#experience{
+    background-image:url(../logo/expex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height : 100vh;   
+}
+.mb-5{
+    padding-top: 50px;
+    font-family: Forte;
+    color: LightSteelBlue;
+    font-size: 40px;
+    padding-left: 1120px;
+}
+.row h3{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: elephant;
+    color: maroon;
+    position: center;
+}
+.tekss p{
+    font-size: 13px;
+    padding-left: 290px;
+    color: black;
+}
+.hadis{
+    font-family: helvetica; 
+    font-size: 15px;
+    color: green;
+}
+.tahunajar{
+    padding-top: 130px;
+    font-size: 15px;
+}
+
+#education {
+    background-image:url(../logo/sekolah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height : 100vh; 
+    padding-top: 40px;
+}
+#education .card{
+    height: 13vh;
+    background-color: BurlyWood;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.teks h2{
+    padding-top: 20px;
+    font-family: Forte;
+    color: LightSteelBlue;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 20px;
+}
+.gmbr img{
+    width: 60px;
+    height: 65px;
+    position: left;
+}
+
+#skills{
+    background-image: url(../logo/langit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height : 100vh;   
+}
+.title h2{
+    padding-top: 20px;
+    font-family: Forte;
+    color: lightsteelblue;
+    font-size: 40px;
+    text-align: right;
+}
+.title h3{
+    
+    font-family: helvetica;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+.kel-skill .svg i{
+   padding-top: 70px;
+}
+
+#interest{
+    background-image: url(../logo/film.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height : 100vh;
+    margin: 0;
+    padding: 0;
+}
+.tittle h2{
+    padding-top: 20px;
+    font-family: Forte;
+    color: lightsteelblue;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 20px;
+}
+.gambar img{
+    width: 60px;
+    height: 60px;
+}
+.border{
+    background-color: white;
+}
+.fas{
+    padding-top: 10px;
+    font-size: 80px;
+    color: maroon;
+}
+.cam{
+    font-size: 20px;
+    font-family: Helvetica;
+    color: DarkSlateGrey;
+    padding-bottom: 20px;
+}
+.film{
+    font-family: helvetica;
+    font-size: 25px;
+    color: LightSeaGreen;
+}
+
+ul {
+    position: center;
+    list-style-type: outside;
+    width: 670px;
+    background-color: none;
+}
+
+li a {
+    color: white;
+    padding: 5px 5px;
+    text-decoration: bold;
+    font-size: 18px;
+}   
+ul li a.active{
+    color: none;
+    text-decoration: bold;
+}
+
+.trans--grow{
+  transition: width 1s  ease-out;
+  width : 0%;
+  height: 8px;
+}
+.grow{
+  width:50%;
+}
+
+
+
+
+
